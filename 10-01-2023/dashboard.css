@@ -180,9 +180,10 @@ body {
   background-color: #eeeeee;
   border: none;
   border-bottom: 1px solid #eeeeee;
-  color: #222222;
+  color: #333333;
   font-family: "Quicksand";
   font-size: 16px;
+  font-weight: bold;
   padding-bottom: 6px;
   border-bottom: 1px solid #e0e1e1;
   margin: 0 24px 0 6px;
@@ -196,6 +197,7 @@ body {
   grid-auto-rows: 246px;
   grid-gap: 24px;
   font-family: "Quicksand";
+  font-weight: bold;
 }
 
 .card {
@@ -250,9 +252,10 @@ body {
   background-position: 100%;
   border: none;
   border-bottom: 2px solid #e0e1e1;
+  color: #222222;
   font-family: "Quicksand";
   font-size: 16px;
-  font-weight: medium;
+  font-weight: bold;
   width: 95%;
   padding: 2px auto 3px 0;
   margin-bottom: 8px;
