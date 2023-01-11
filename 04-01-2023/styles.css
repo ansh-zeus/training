@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter-msg-container {
+  width: 457px;
+  height: 138px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  /* border: 2px solid black; */
+}
+.twitter-msg-details {
+  margin-right: 4px;
+}
+#Mosh-image {
+  width: 130px;
+  height: 130px;
+  margin: 4px 14px 4px 4px;
+}
+#username {
+  margin: 10px 0;
+  font-size: 20px;
+}
+#msg {
+  color: black;
+  font-size: 20px;
+  margin: 14px 0 0 0;
+  font-weight: 400;
+}
+.message-reaction {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.msg-images {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  margin-top: 24px;
+  color: #858991;
+}
+.reaction-msg-fonts {
+  color: #858991;
+  margin: 24px 24px 0 14px;
+  font-weight: 500;
+  font-size: 15px;
+}
