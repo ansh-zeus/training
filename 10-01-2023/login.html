@@ -19,63 +19,70 @@
         <img src="icons/back.svg" alt="Back Arrow Icon" />
         <h4>Log in with Quantum</h4>
       </div>
-      <div class="container__form">
-        <div class="container__form__radio">
-          <img src="icons/radio-button-on.svg" alt="radio button on" />
-          <h4>District</h4>
-          <div class="radio2">
-            <img src="icons/radio-button-off.svg" alt="radio button off" />
-            <h4>Independent School</h4>
+      <form action="#">
+        <div class="container__form">
+          <div class="container__form__radio">
+            <input
+              type="radio"
+              id="District"
+              value="District"
+              name="radio"
+              checked
+            />
+            <h4>District</h4>
+            <div class="radio2">
+              <input
+                type="radio"
+                id="Independent_School"
+                value="Independent School"
+                name="radio"
+              />
+              <h4>Independent School</h4>
+            </div>
+          </div>
+          <div class="container__form__details">
+            <h5>State*</h5>
+
+            <select name="state" id="state">
+              <option value="Alabama" selected>Alabama</option>
+              <option value="more">more</option>
+            </select>
+            <h5 id="container__form___details__district">District*</h5>
+            <select name="state" id="district_state">
+              <option value="Alabama School District" selected>
+                Alabama School District
+              </option>
+              <option value="more">more</option>
+            </select>
+            <input
+              type="text"
+              placeholder="Username/Email ID*"
+              id="username"
+              required
+            />
+            <div class="container__form__details__forgot">
+              <h6>FORGOT USERNAME?</h6>
+            </div>
+            <input
+              type="password"
+              name=""
+              id="password"
+              placeholder="Password*"
+              required
+            />
+            <div class="container__form__details__forgot">
+              <h6>FORGOT PASSWORD?</h6>
+            </div>
+            <div class="container__form__details__remember">
+              <input type="checkbox" name="" id="Remember_me" />
+              <h4>Remember me</h4>
+            </div>
+          </div>
+          <div class="container__form__button">
+            <button>LOG IN</button>
           </div>
         </div>
-        <div class="container__form__details">
-          <h5>State*</h5>
-          <!-- <div class="container__form__details__dropdowns">
-            <h4>Alabama</h4>
-            <img src="icons/arrow-down.svg" alt="down arrow" />
-          </div> -->
-          <select name="state" id="state">
-            <option value="Alabama" selected>Alabama</option>
-            <option value="more">more</option>
-          </select>
-          <h5 id="container__form___details__district">District*</h5>
-          <!-- <div class="container__form__details__dropdowns">
-            <h4>Alabama School District</h4>
-            <img src="icons/arrow-down.svg" alt="down arrow" />
-          </div> -->
-          <select name="state" id="district_state">
-            <option value="Alabama School District" selected>
-              Alabama School District
-            </option>
-            <option value="more">more</option>
-          </select>
-          <!-- <h4 id="username">Username/Email ID*</h4> -->
-          <input type="text" placeholder="Username/Email ID*" id="username" />
-          <div class="container__form__details__forgot">
-            <h6>FORGOT USERNAME?</h6>
-          </div>
-          <!-- <div class="container__form__details__password">
-            <h4 id="password">Password*</h4>
-            <img src="icons/preview.svg" alt="Preview icon" />
-          </div> -->
-          <input
-            type="password"
-            name=""
-            id="password"
-            placeholder="Password*"
-          />
-          <div class="container__form__details__forgot">
-            <h6>FORGOT PASSWORD?</h6>
-          </div>
-          <div class="container__form__details__remember">
-            <img src="icons/checkbox-checked.svg" alt="Checked Checkbox" />
-            <h4>Remember me</h4>
-          </div>
-        </div>
-        <div class="container__form__button">
-          <button>LOG IN</button>
-        </div>
-      </div>
+      </form>
     </div>
     <div class="footer">
       <div class="footer__contacts">

@@ -36,6 +36,7 @@ body {
   background-color: #eeeeee;
   margin: 0;
   padding: 0;
+  accent-color: #1f7a54;
 }
 
 .header {
@@ -60,19 +61,22 @@ body {
   font-family: "Quicksand";
   font-weight: medium;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   font-size: 24px;
   margin-left: 32px;
 }
 
 .container__header > h4 {
-  /* justify-self: center; */
   margin-top: 22px;
   margin-left: 77px;
   color: #222222;
 }
-
+#District,
+#Independent_School {
+  width: 24px;
+  height: 20px;
+  margin: 0 8px 0 0;
+}
 .container__form {
   margin: auto 32px;
   font-family: "Quicksand";
@@ -82,7 +86,6 @@ body {
 .container__form__radio {
   display: flex;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 .container__form__radio > .radio2 {
   display: flex;
@@ -119,7 +122,6 @@ body {
   font-size: 16px;
   font-family: "Quicksand";
   font-weight: bold;
-  /* margin-top: 5px; */
   padding-bottom: 5px;
   width: 100%;
 }
@@ -135,7 +137,6 @@ body {
   font-size: 16px;
   font-family: "Quicksand";
   font-weight: bold;
-  /* margin-top: 5px; */
   padding-bottom: 5px;
   width: 100%;
 }
@@ -163,13 +164,6 @@ body {
   margin-top: 5px;
   margin-bottom: 0;
 }
-/* .container__form__details__password {
-  display: flex;
-}
-
-.container__form__details__password > img {
-  margin-left: auto;
-} */
 
 #password {
   border: none;
@@ -214,6 +208,12 @@ body {
   height: 40px;
   margin: 14px auto 24px auto;
   width: 215.5px;
+}
+
+#Remember_me {
+  height: 24px;
+  width: 18px;
+  margin: 0 5px 0 0;
 }
 
 .footer {
