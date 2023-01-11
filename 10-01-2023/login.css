@@ -108,21 +108,6 @@ body {
   margin: 23px auto 5px 0;
 }
 
-/* .container__form__details__dropdowns {
-  border-bottom: 1px solid #eeeeee;
-  color: #222222;
-  display: flex;
-  margin-bottom: 36px;
-}
-.container__form__details__dropdowns > h4 {
-  font-weight: medium;
-  margin: 0px auto 5px 0;
-}
-
-.container__form__details__dropdowns > img {
-  margin-left: auto;
-} */
-
 #state {
   appearance: none;
   background-image: url("icons/arrow-down.svg");
