@@ -1,37 +1,33 @@
 @font-face {
   font-family: "Quicksand";
-  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Bold.ttf")
-    format("truetype");
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Quicksand";
-  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Light.ttf")
-    format("truetype");
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Light.ttf") format("truetype");
   font-weight: light;
 }
 
 @font-face {
   font-family: "Quicksand";
-  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Medium.ttf")
-    format("truetype");
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Medium.ttf") format("truetype");
   font-weight: medium;
 }
 
 @font-face {
   font-family: "Quicksand";
-  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Regular.ttf")
-    format("truetype");
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Quicksand";
-  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-SemiBold.ttf")
-    format("truetype");
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-SemiBold.ttf") format("truetype");
   font-weight: 600;
 }
+
 body {
   background-color: #eeeeee;
   margin: 0;
@@ -71,12 +67,14 @@ body {
   margin-left: 77px;
   color: #222222;
 }
+
 #District,
 #Independent_School {
   width: 24px;
   height: 20px;
   margin: 0 8px 0 0;
 }
+
 .container__form {
   margin: auto 32px;
   font-family: "Quicksand";
@@ -87,16 +85,16 @@ body {
   display: flex;
   align-items: center;
 }
+
 .container__form__radio > .radio2 {
   display: flex;
   align-items: center;
 }
-.radio2 > img {
-  margin-right: 24px;
-}
+
 .container__form__radio > img {
   margin-right: 24px;
 }
+
 .container__form__radio > h4 {
   margin: 2px 20px 2px 0;
   color: #333333;
@@ -140,6 +138,7 @@ body {
   padding-bottom: 5px;
   width: 100%;
 }
+
 #username {
   border: none;
   border-bottom: 1px solid #eeeeee;
@@ -157,6 +156,7 @@ body {
   display: flex;
   justify-content: end;
 }
+
 .container__form__details__forgot > h6 {
   color: #1f7a54;
   font-size: 14px;
@@ -186,9 +186,10 @@ body {
   color: #222222;
 }
 
-.container__form__details__remember > img {
+/* .container__form__details__remember > img {
   margin-right: 5px;
-}
+} */
+
 .container__form__details__remember > h4 {
   margin: 0;
 }
@@ -198,6 +199,7 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
+
 .container__form__button > button {
   background-color: #3fd28b;
   border: none;
@@ -228,14 +230,17 @@ body {
   font-weight: medium;
   justify-content: center;
 }
+
 .footer__contacts > h5 {
   margin: 0;
 }
+
 #footer__contacts__about {
   border-right: 1px solid #e0e1e1;
   margin-right: 10px;
   padding-right: 8px;
 }
+
 .footer__last {
   background-color: #e0e1e1;
   display: flex;
@@ -246,6 +251,7 @@ body {
   align-items: center;
   margin-top: 16px;
 }
+
 .footer__last > p {
   margin-top: 13px;
 }
@@ -270,6 +276,7 @@ body {
     justify-content: start;
   }
 }
+
 @media screen and (min-height: 865px) {
   .footer {
     margin-top: 225px;

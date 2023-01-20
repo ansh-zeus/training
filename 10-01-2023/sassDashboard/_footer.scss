@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 32px;
+
+  .footer__contacts {
+    color: #1f7a54;
+    @include flex($justify: center);
+    font-family: $font;
+    font-size: 14px;
+    font-weight: medium;
+
+    h5 {
+      margin: 0;
+    }
+
+    #footer__contacts__about {
+      border-right: 1px solid #e0e1e1;
+      margin-right: 10px;
+      padding-right: 8px;
+    }
+  }
+  .footer__last {
+    background-color: #e0e1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand";
+    font-size: 12px;
+    font-weight: medium;
+    margin-top: 16px;
+
+    img {
+      margin: 8px 0px;
+      border-right: 1px solid #bbbcbc;
+      padding-right: 16px;
+    }
+
+    #footer__copyright {
+      margin-left: 16px;
+      margin-right: 8px;
+    }
+
+    #footer__zeus {
+      font-weight: bold;
+      margin-right: 11px;
+    }
+  }
+}

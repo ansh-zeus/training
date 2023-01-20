@@ -1,0 +1,37 @@
+.drop_down {
+  @include flex(row, space-between, center);
+  margin: 0 24px;
+  padding-bottom: 17px;
+  border-bottom: 2px solid #e0e1e1;
+  flex-wrap: wrap;
+
+  .drop_down__fonts {
+    font-family: $font;
+    font-size: 12px;
+    font-weight: medium;
+    color: #686868;
+  }
+
+  .drop_down__right {
+    @include flex(row-reverse, start, center);
+    flex-wrap: wrap;
+
+    #courses {
+      appearance: none;
+      background-image: url("../icons/arrow-down.svg");
+      background-repeat: no-repeat;
+      background-position: 100%;
+      background-color: #eeeeee;
+      border: none;
+      border-bottom: 1px solid #eeeeee;
+      color: #222222;
+      font-family: $font;
+      font-size: 16px;
+      font-weight: bold;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #e0e1e1;
+      margin: 0 24px 0 6px;
+      width: 200px;
+    }
+  }
+}

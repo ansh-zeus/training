@@ -1,0 +1,29 @@
+@import "_fonts";
+@import "_variables";
+@import "_mixins";
+
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  accent-color: #1f7a54;
+
+  .header {
+    background-image: url($backgroundHeader + "header\ pattern\ image.png");
+    background-color: black;
+    border-bottom: 2px solid #31b9e4;
+    width: 100%;
+
+    img {
+      margin: 9.5px auto 10.5px 24px;
+    }
+  }
+
+  @import "_container";
+  @import "_footer";
+}
+@media screen and (min-height: 865px) {
+  .footer {
+    margin-top: 225px !important;
+  }
+}

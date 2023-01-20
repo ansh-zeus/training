@@ -1,0 +1,168 @@
+.container {
+  border-top: 4px solid #3ac7ec;
+  background-color: white;
+  margin: 50px auto;
+  width: 488px;
+
+  .container__header {
+    font-family: $font;
+    font-weight: medium;
+    @include flex($align: center);
+    font-size: 24px;
+    margin-left: 32px;
+
+    h4 {
+      margin-top: 22px;
+      margin-left: 77px;
+      color: #222222;
+    }
+  }
+
+  form {
+    .container__form {
+      margin: auto 32px;
+      font-family: $font;
+      font-weight: medium;
+
+      .container__form__radio {
+        @include flex($align: center);
+
+        h4 {
+          margin: 2px 20px 2px 0;
+          color: #333333;
+          font-weight: medium;
+        }
+        #District {
+          width: 24px;
+          height: 20px;
+          margin: 0 8px 0 0;
+        }
+
+        .radio2 {
+          @include flex($align: center);
+
+          #Independent_School {
+            @extend #District;
+          }
+        }
+      }
+
+      .container__form__details {
+        h5 {
+          color: #666666;
+          font-size: 12px;
+          font-weight: medium;
+          margin: 23px auto 5px 0;
+        }
+
+        #state {
+          appearance: none;
+          background-image: url("../icons/arrow-down.svg");
+          background-repeat: no-repeat;
+          background-position: 100%;
+          border: none;
+          border-bottom: 1px solid #eeeeee;
+          color: #222222;
+          font-size: 16px;
+          font-family: $font;
+          font-weight: bold;
+          padding-bottom: 5px;
+          width: 100%;
+        }
+
+        #district_state {
+          appearance: none;
+          background-image: url("../icons/arrow-down.svg");
+          background-repeat: no-repeat;
+          background-position: 100%;
+          border: none;
+          border-bottom: 1px solid #eeeeee;
+          color: #222222;
+          font-size: 16px;
+          font-family: $font;
+          font-weight: bold;
+          padding-bottom: 5px;
+          width: 100%;
+        }
+
+        #username {
+          border: none;
+          border-bottom: 1px solid #eeeeee;
+          color: #666666;
+          font-family: $font;
+          font-size: 16px;
+          font-weight: bold;
+          margin: 56px auto 5px 0px;
+          padding-bottom: 5px;
+          width: 100%;
+        }
+
+        .container__form__details__forgot {
+          @include flex($justify: end);
+
+          h6 {
+            color: #1f7a54;
+            font-size: 14px;
+            font-weight: medium;
+            margin-top: 5px;
+            margin-bottom: 0;
+          }
+        }
+
+        #password {
+          border: none;
+          border-bottom: 1px solid #eeeeee;
+          background-image: url("../icons/preview.svg");
+          background-repeat: no-repeat;
+          background-position: 100%;
+          color: #666666;
+          font-family: $font;
+          font-size: 16px;
+          font-weight: bold;
+          margin-top: 33px;
+          padding-bottom: 5px;
+          width: 100%;
+        }
+
+        .container__form__details__remember {
+          display: flex;
+          margin-top: 24px;
+          color: #222222;
+
+          #Remember_me {
+            height: 24px;
+            width: 18px;
+            margin: 0 5px 0 0;
+          }
+
+          h4 {
+            margin: 0;
+          }
+        }
+      }
+
+      .container__form__button {
+        @include flex($justify: center);
+        margin-top: 20px;
+
+        button {
+          background-color: #3fd28b;
+          border: none;
+          box-shadow: 0px 3px 5px #0000003d;
+          font-family: $font;
+          font-size: 16px;
+          font-weight: bold;
+          height: 40px;
+          margin: 14px auto 24px auto;
+          width: 215.5px;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container__header {
+      justify-content: start;
+    }
+  }
+}
