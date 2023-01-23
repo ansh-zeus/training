@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!-- <link rel="stylesheet" href="login.css" /> -->
+    <link rel="stylesheet" href="./sassLogin/login.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="images/header/logo used in header.svg"
+        alt="a light bulb with Quantum name"
+      />
+    </div>
+    <div class="container">
+      <div class="container__header">
+        <img src="icons/back.svg" alt="Back Arrow Icon" />
+        <h4>Log in with Quantum</h4>
+      </div>
+      <form action="#">
+        <div class="container__form">
+          <div class="container__form__radio">
+            <input
+              type="radio"
+              id="District"
+              value="District"
+              name="radio"
+              checked
+            />
+            <h4>District</h4>
+            <div class="radio2">
+              <input
+                type="radio"
+                id="Independent_School"
+                value="Independent School"
+                name="radio"
+              />
+              <h4>Independent School</h4>
+            </div>
+          </div>
+          <div class="container__form__details">
+            <h5>State*</h5>
+
+            <select name="state" id="state">
+              <option value="Alabama" selected>Alabama</option>
+              <option value="more">more</option>
+            </select>
+            <h5 id="container__form___details__district">District*</h5>
+            <select name="state" id="district_state">
+              <option value="Alabama School District" selected>
+                Alabama School District
+              </option>
+              <option value="more">more</option>
+            </select>
+            <input
+              type="text"
+              placeholder="Username/Email ID*"
+              id="username"
+              required
+            />
+            <div class="container__form__details__forgot">
+              <h6>FORGOT USERNAME?</h6>
+            </div>
+            <input
+              type="password"
+              name=""
+              id="password"
+              placeholder="Password*"
+              required
+            />
+            <div class="container__form__details__forgot">
+              <h6>FORGOT PASSWORD?</h6>
+            </div>
+            <div class="container__form__details__remember">
+              <input type="checkbox" name="" id="Remember_me" />
+              <h4>Remember me</h4>
+            </div>
+          </div>
+          <div class="container__form__button">
+            <button>LOG IN</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <div class="footer__contacts">
+        <h5 id="footer__contacts__about">About</h5>
+        <h5>Contact US</h5>
+      </div>
+      <div class="footer__last">
+        <img
+          src="icons/logo used in footer.svg"
+          alt="A light bulb with Quantum Name"
+        />
+        <p id="footer__copyright">Copyright © 2020-2021</p>
+        <p id="footer__zeus">Zeus Systems Pvt. Ltd.</p>
+        <p id="footer__rights">All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>

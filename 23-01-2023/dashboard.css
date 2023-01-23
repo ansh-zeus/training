@@ -1,0 +1,414 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Light.ttf") format("truetype");
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Medium.ttf") format("truetype");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+/* --------------------------------------navbar--------------------------------------------- */
+.navbar {
+  background-image: url("images/header/header\ pattern\ svg.svg");
+  background-color: black;
+  display: flex;
+  align-items: center;
+  font-family: "Quicksand";
+  font-weight: medium;
+}
+
+.navbar > img {
+  margin: 9.5px auto 10.5px 24px;
+}
+
+.nav__option {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.nav__option > img {
+  margin: auto 16px;
+}
+
+.acc-img-nav {
+  position: relative;
+}
+
+#acc-badge {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 8px;
+  color: #222222;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  top: 10px;
+  right: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#account-image {
+  height: 32px;
+  width: 32px;
+  margin: 12px 24px 12px 16px;
+}
+
+.nav__option > h5 {
+  color: #3fd28b;
+  font-size: 14px;
+  margin: 0 16px;
+  padding: 19px 0;
+}
+
+.announcement {
+  position: relative;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.badge {
+  background-color: #2a7ff3;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: -10px;
+  right: 2px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#alert-badge {
+  right: 10px;
+  top: -8px;
+}
+
+.alerts {
+  position: relative;
+  padding: 0 16px 0 16px !important;
+}
+
+#dashboard {
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 19px;
+  border-bottom: 4px solid white;
+}
+
+@media screen and (max-width: 1023px) {
+  #hamburger-menu {
+    display: inline !important;
+    margin-right: 24px;
+  }
+
+  #account-image {
+    margin-right: 16px;
+  }
+
+  .nav__option > h5 {
+    display: none !important;
+  }
+
+  #acc-badge {
+    top: 8px;
+    right: 14px;
+  }
+}
+
+/* ----------------------------------------------------------header------------------------------------------------------ */
+.header {
+  background-color: #8ddc97;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 24px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__number {
+  font-family: "Quicksand";
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 19px 8px;
+}
+
+.header__fonts {
+  font-family: "Quicksand";
+  font-weight: medium;
+  font-size: 16px;
+}
+
+.header__courses {
+  border-bottom: 4px solid #222222;
+}
+
+/* -------------------------------------------------------------drop_down-------------------------------------------------------- */
+.drop_down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 24px;
+  padding-bottom: 17px;
+  border-bottom: 2px solid #e0e1e1;
+  flex-wrap: wrap;
+}
+
+.drop_down__fonts {
+  font-family: "Quicksand";
+  font-size: 12px;
+  font-weight: medium;
+  color: #686868;
+}
+
+.drop_down__right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#courses {
+  appearance: none;
+  background-image: url("icons/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-color: #eeeeee;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  color: #222222;
+  font-family: "Quicksand";
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e0e1e1;
+  margin: 0 24px 0 6px;
+  width: 200px;
+}
+
+/* --------------------------------------------------------------------------------display----------------------------- */
+.display {
+  margin: 16px 24px auto 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 246px;
+  grid-gap: 24px;
+  font-family: "Quicksand";
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-right: 16px;
+}
+
+.card__header {
+  display: flex;
+  width: auto;
+}
+
+.card__header > img {
+  margin: 24px 16px 16px 24px;
+}
+
+.card__details {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-size: 12px;
+  color: #666666;
+  width: 90%;
+}
+
+.card__details__subj-grade__subject {
+  padding-right: 9px;
+  margin-right: 9px;
+  border-right: 2px solid #eeeeee;
+}
+
+.card__details__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: #222222;
+  margin-top: 24px;
+  margin-bottom: 7px;
+}
+
+.card__details__about {
+  margin-top: 7px;
+  margin-bottom: 16px;
+}
+
+.card__details > select {
+  appearance: none;
+  background-image: url("icons/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  border: none;
+  border-bottom: 2px solid #e0e1e1;
+  color: #222222;
+  font-family: "Quicksand";
+  font-size: 16px;
+  font-weight: bold;
+  width: 95%;
+  padding: 2px auto 3px 0;
+  margin-bottom: 8px;
+}
+
+.number-students {
+  padding-right: 8px;
+  border-right: 2px solid #eeeeee;
+}
+
+.green-fonts {
+  color: #1f7a54;
+}
+
+.bold-fonts {
+  font-weight: bold;
+  color: #222222;
+}
+
+.six-pixel-box {
+  display: inline-block;
+  width: 6px;
+}
+
+.dates {
+  margin-left: 9px;
+}
+
+.card__footer {
+  margin: 0 8px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #e0e1e1;
+  width: auto;
+  padding: 16px 24px 9px;
+}
+
+#classes_expire {
+  margin-top: 17px;
+}
+
+#star {
+  height: 24px;
+  width: 24px;
+}
+
+.expire {
+  display: inline;
+  padding: 4px 7px 2px 5px;
+  color: #d80000;
+  background-color: #ffe4e6;
+  position: absolute;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+  .display {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ------------------------------------footer------------------------------------------------------------------------- */
+.footer {
+  margin-top: 32px;
+}
+
+.footer__contacts {
+  color: #1f7a54;
+  display: flex;
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-weight: medium;
+  justify-content: center;
+}
+
+.footer__contacts > h5 {
+  margin: 0;
+}
+
+#footer__contacts__about {
+  border-right: 1px solid #e0e1e1;
+  margin-right: 10px;
+  padding-right: 8px;
+}
+
+.footer__last {
+  background-color: #e0e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand";
+  font-size: 12px;
+  font-weight: medium;
+  margin-top: 16px;
+}
+
+.footer__last > img {
+  margin: 8px 0px;
+  border-right: 1px solid #bbbcbc;
+  padding-right: 16px;
+}
+
+#footer__copyright {
+  margin-left: 16px;
+  margin-right: 8px;
+}
+
+#footer__zeus {
+  font-weight: bold;
+  margin-right: 11px;
+}

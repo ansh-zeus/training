@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Light.ttf") format("truetype");
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Medium.ttf") format("truetype");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("fonts/Quicksand\ font\ 1/static/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  accent-color: #1f7a54;
+}
+
+.header {
+  background-image: url("images/header/header\ pattern\ image.png");
+  background-color: black;
+  border-bottom: 2px solid #31b9e4;
+  width: 100%;
+}
+
+.header > img {
+  margin: 9.5px auto 10.5px 24px;
+}
+
+.container {
+  border-top: 4px solid #3ac7ec;
+  background-color: white;
+  margin: 50px auto;
+  width: 488px;
+}
+
+.container__header {
+  font-family: "Quicksand";
+  font-weight: medium;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-left: 32px;
+}
+
+.container__header > h4 {
+  margin-top: 22px;
+  margin-left: 77px;
+  color: #222222;
+}
+
+#District,
+#Independent_School {
+  width: 24px;
+  height: 20px;
+  margin: 0 8px 0 0;
+}
+
+.container__form {
+  margin: auto 32px;
+  font-family: "Quicksand";
+  font-weight: medium;
+}
+
+.container__form__radio {
+  display: flex;
+  align-items: center;
+}
+
+.container__form__radio > .radio2 {
+  display: flex;
+  align-items: center;
+}
+
+.container__form__radio > img {
+  margin-right: 24px;
+}
+
+.container__form__radio > h4 {
+  margin: 2px 20px 2px 0;
+  color: #333333;
+  font-weight: medium;
+}
+
+.container__form__details > h5 {
+  color: #666666;
+  font-size: 12px;
+  font-weight: medium;
+
+  margin: 23px auto 5px 0;
+}
+
+#state {
+  appearance: none;
+  background-image: url("icons/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  color: #222222;
+  font-size: 16px;
+  font-family: "Quicksand";
+  font-weight: bold;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+#district_state {
+  appearance: none;
+  background-image: url("icons/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  color: #222222;
+  font-size: 16px;
+  font-family: "Quicksand";
+  font-weight: bold;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+#username {
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  color: #666666;
+  font-family: "QuickSand";
+
+  font-size: 16px;
+  font-weight: bold;
+  margin: 56px auto 5px 0px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.container__form__details__forgot {
+  display: flex;
+  justify-content: end;
+}
+
+.container__form__details__forgot > h6 {
+  color: #1f7a54;
+  font-size: 14px;
+  font-weight: medium;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+#password {
+  border: none;
+  border-bottom: 1px solid #eeeeee;
+  background-image: url("icons/preview.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  color: #666666;
+  font-family: "Quicksand";
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 33px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.container__form__details__remember {
+  display: flex;
+  margin-top: 24px;
+  color: #222222;
+}
+
+/* .container__form__details__remember > img {
+  margin-right: 5px;
+} */
+
+.container__form__details__remember > h4 {
+  margin: 0;
+}
+
+.container__form__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container__form__button > button {
+  background-color: #3fd28b;
+  border: none;
+  box-shadow: 0px 3px 5px #0000003d;
+  font-family: "Quicksand";
+  font-size: 16px;
+  font-weight: bold;
+  height: 40px;
+  margin: 14px auto 24px auto;
+  width: 215.5px;
+}
+
+#Remember_me {
+  height: 24px;
+  width: 18px;
+  margin: 0 5px 0 0;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.footer__contacts {
+  color: #1f7a54;
+  display: flex;
+  font-family: "Quicksand";
+  font-size: 14px;
+  font-weight: medium;
+  justify-content: center;
+}
+
+.footer__contacts > h5 {
+  margin: 0;
+}
+
+#footer__contacts__about {
+  border-right: 1px solid #e0e1e1;
+  margin-right: 10px;
+  padding-right: 8px;
+}
+
+.footer__last {
+  background-color: #e0e1e1;
+  display: flex;
+  font-family: "Quicksand";
+  font-size: 12px;
+  font-weight: medium;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.footer__last > p {
+  margin-top: 13px;
+}
+
+.footer__last > img {
+  border-right: 1px solid #bbbcbc;
+  padding-right: 16px;
+}
+
+#footer__copyright {
+  margin-left: 16px;
+  margin-right: 8px;
+}
+
+#footer__zeus {
+  font-weight: bold;
+  margin-right: 11px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container__header {
+    justify-content: start;
+  }
+}
+
+@media screen and (min-height: 865px) {
+  .footer {
+    margin-top: 225px;
+  }
+}
